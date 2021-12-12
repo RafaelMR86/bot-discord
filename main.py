@@ -14,6 +14,6 @@ async def on_message(message):
     if message.author == client.user:
         return
     if message.content.startswith('$fala'):
-        await message.channel.send('Meteu essa???????!!!!!')
+        await message.channel.send('Meteu essa??????!!!!!')
 
 client.run(os.environ.get('TOKEN'))
